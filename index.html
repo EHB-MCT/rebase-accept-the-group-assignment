@@ -7,8 +7,34 @@
 </head>
 <body>
     <h1>Hello Accept-this-Assignmen</h1>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">Student voornaam</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Student achternaam</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Land</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
     <!-- New feature button added -->
     <button>Button to submit a form</button>
     <button>Double button now</button>
+
 </body>
 </html>
